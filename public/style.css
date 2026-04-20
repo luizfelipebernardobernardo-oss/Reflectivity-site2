@@ -123,6 +123,12 @@ img {
   transform: translateY(-2px);
 }
 
+.header-buttons .btn {
+    height: 34px !important;
+    line-height: 34px !important;
+    padding: 0 14px !important;
+}
+
 /* HERO */
 
 .hero {
@@ -566,12 +572,6 @@ filter: grayscale(100%);
 /* espaço entre logo e botão */
 .navbar .btn-primary {
   margin-left: 8px;
-}
-
-.navbar-nav .btn-primary {
-    padding: 6px 12px;
-    font-size: 12px;
-    height: 36px;
 }
 
 }
