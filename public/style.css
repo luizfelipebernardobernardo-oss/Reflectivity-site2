@@ -443,4 +443,55 @@ img {
   font-size: 24px;
 }
 
+@media (max-width: 720px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    padding: 16px 0;
+  }
+
+  .brand-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .site-logo {
+    width: 72px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .brand-title {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .brand-kicker {
+    font-size: 0.8rem;
+    letter-spacing: 0.18em;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .header-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .header-buttons .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 }
