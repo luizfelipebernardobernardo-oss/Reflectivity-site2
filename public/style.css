@@ -523,4 +523,10 @@ filter: grayscale(100%);
   margin-left: 16px;
 }
 
+.navbar .btn-primary {
+  padding: 10px 18px;   /* diminui altura e largura */
+  font-size: 14px;      /* texto menor */
+  border-radius: 10px;  /* opcional */
+}
+
 }
