@@ -507,4 +507,14 @@ filter: grayscale(100%);
   pointer-events: none;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+/* espaço entre logo e botão */
+.navbar .btn-primary {
+  margin-left: 24px;
+}
+
 }
