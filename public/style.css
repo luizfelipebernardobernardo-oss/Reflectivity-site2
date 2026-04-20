@@ -378,6 +378,10 @@ img {
     gap: 10px; /* espaço entre Home, Features, etc */
 }
 
+.navbar-nav .btn {
+    white-space: nowrap;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 1000px) {
