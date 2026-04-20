@@ -378,13 +378,18 @@ img {
     gap: 10px; /* espaço entre Home, Features, etc */
 }
 
-.navbar-nav .btn {
+.navbar .btn-primary {
     white-space: nowrap;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 16px;
+    gap: 8px;
+
+    padding: 8px 14px;
+    font-size: 13px;
+    line-height: 1;
     min-height: 44px;
+    width: auto;
 }
 
 /* RESPONSIVE */
