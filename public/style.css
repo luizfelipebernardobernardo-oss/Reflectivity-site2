@@ -494,4 +494,17 @@ img {
   }
 }
 
+.watermark {
+  position: absolute;
+  right: 20px;
+  bottom: 12px;
+
+  font-size: 12px;
+  opacity: 0.3;
+filter: grayscale(100%);
+
+  color: #9ca3af;
+  pointer-events: none;
+}
+
 }
